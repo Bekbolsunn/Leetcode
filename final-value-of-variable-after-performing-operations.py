@@ -7,7 +7,7 @@ class Solution:
             elif i == "++X" or i == "X++":
                 count += 1
         return count
-        
-        
+
+
 q = Solution()
-print(q.finalValueAfterOperations(operations=["++X","++X","X++"]))
+print(q.finalValueAfterOperations(operations=["++X", "++X", "X++"]))

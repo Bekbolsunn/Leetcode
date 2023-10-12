@@ -7,9 +7,8 @@ class Solution:
                 if i == k:
                     count += 1
         return count
-        
-        
-        
+
+
 q = Solution()
 # print(q.numJewelsInStones(jewels = "aA", stones = "aAAbbbb"))
-print(q.numJewelsInStones(jewels = "ebd", stones = "bbb"))
+print(q.numJewelsInStones(jewels="ebd", stones="bbb"))
